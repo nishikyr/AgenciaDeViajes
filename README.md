@@ -3,8 +3,12 @@
 **Agencia de Viajes con Spring MVC**  
 Un sistema web desarrollado con Spring MVC que permite gestionar reservas, destinos y clientes de una agencia de viajes de manera eficiente.
 **Consideraciones previas** 
+Este proyecto esta configurado por el puerto /8081
+Se esta trabajando en conjunto con un API REST en otro prroyecto llamado VuelosCRUD (lo subiré en el transcurso del mes) para obtener los endPoints cumpliendo con el CRUD. Create, Read, Update and Delete. Ese proyecto esta configurado por el puerto 8080
+
 Se esta trabajando con una base de datos en memoria H2. Que ya esta previamente configurada en el application.properties y una vez iniciada la aplicación puede ser accedida desde el localhost:8081/h2-console.
 Para una mejor visualización de información o alguna otra configuración que desee realizar.
+
 
 # Archivos y Dependencias
 
@@ -47,4 +51,6 @@ El proyecto sigue una arquitectura modular organizada en diferentes paquetes:
 En una segunda versión se puede implentar 
 - La mejora de algunos accesos con Spring Security en algunas páginas, restringuilas por roles o por el usuario en si. 
 - El uso de JWT para la autenticación también es indispensable.
+- Aplicar filtros, para obtener viajes de un solo destino.
+- Agregar la hora de salida y llegada (tendriamos que evaluarlo tambien en nuestro Vuelos APIREST (otro proyecto))
 - Colocar un página estática siguiendo el diseño con Bootstrap.
