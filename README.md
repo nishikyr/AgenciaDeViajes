@@ -44,5 +44,7 @@ El proyecto sigue una arquitectura modular organizada en diferentes paquetes:
 
 ## Sugerencias
 
-En una segunda versión se puede implentar la mejora de algunos accesos con Spring Security en algunas páginas, restringuilas por roles o por el usuario en si. 
-El uso de JWT para la autenticación también es indispensable.
+En una segunda versión se puede implentar 
+- La mejora de algunos accesos con Spring Security en algunas páginas, restringuilas por roles o por el usuario en si. 
+- El uso de JWT para la autenticación también es indispensable.
+- Colocar un página estática siguiendo el diseño con Bootstrap.
